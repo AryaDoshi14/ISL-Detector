@@ -4,14 +4,6 @@
 
 🌐 **Live demo:** [isl-detector-2wum.vercel.app](https://isl-detector-2wum.vercel.app/)
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?logo=google&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-
----
-
 ## Overview
 
 ISL Detector recognizes Indian Sign Language hand signs (digits and alphabet letters) from images or a live camera feed. Instead of feeding raw pixels into a deep network, it uses **MediaPipe HandLandmarker** to extract 21 3D landmarks per hand, normalizes them, and classifies the resulting feature vector with one of three lightweight scikit-learn models.
